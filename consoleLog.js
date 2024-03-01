@@ -6,3 +6,4 @@ if (num<5) {
 } else {
     console.log("Maior que 5");
 }
+console.log("Segundo Commit");
