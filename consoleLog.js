@@ -7,3 +7,4 @@ if (num<5) {
     console.log("Maior que 5");
 }
 console.log("Segundo Commit");
+console.log("Terceiro Commit");
