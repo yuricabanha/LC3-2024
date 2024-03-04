@@ -1,10 +1,10 @@
-var num = 5
-if (num<5) {
-    console.log("Menor que cinco");
+//var num = 5
+function compare(x){
+if (x<5) {
+    alert("Menor que cinco");
 } else if(x==5) {
-    console.log("Igual a 5");
+    alert("Igual a 5");
 } else {
-    console.log("Maior que 5");
+    alert("Maior que 5");
 }
-console.log("Segundo Commit");
-console.log("Terceiro Commit");
+}
