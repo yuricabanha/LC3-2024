@@ -1,5 +1,4 @@
-//var num = 5
-x=+prompt('Escreva um número')
+//var num = 0
 function compare(x){
 if (x<5) {
     alert("Menor que cinco");
