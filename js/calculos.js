@@ -1,11 +1,17 @@
 
 function calculo(x,y){
-    soma = x+y;
-    alert("a soma de "+x+" + "+y+" é igual a "+soma);
+    if(x==='' || y===''){
+        return ('Preencha os dois campos');
+    }
+    var CalcString = '';
+    soma = parseInt(x)+parseInt(y);
+    CalcString+=("a soma de "+x+" + "+y+" é igual a "+soma+'<br />');
     divisao = x/y;
-    alert("a divisão de "+x+" / "+y+" é igual a "+divisao);
+    CalcString+=("a divisão de "+x+" / "+y+" é igual a "+divisao+'<br />');
     subtracao = x-y;
-    alert("a subtração de "+x+" - "+y+" é igual a "+subtracao);
+    CalcString+=("a subtração de "+x+" - "+y+" é igual a "+subtracao+'<br />');
     multiplicacao = x*y;
-    alert("a multiplicação de "+x+" * "+y+" é igual a "+multiplicacao);
+    CalcString+=("a multiplicação de "+x+" * "+y+" é igual a "+multiplicacao);
+    return CalcString;
 }
+    
