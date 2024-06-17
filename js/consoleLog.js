@@ -5,13 +5,13 @@ function compare(x) {
     }
     if (x < 5) {
         if (x<0){
-            alert(x+" Menor que cinco e negativo");    
+            document.getElementById('comp').innerHTML = (x+" Menor que cinco e negativo");    
         }else{
-            alert(" Menor que cinco");
+            document.getElementById('comp').innerHTML = (" Menor que cinco");
         }
     } else if (x == 5) {
-        alert(x+" Igual a 5");
+        document.getElementById('comp').innerHTML = (x+" Igual a 5");
     } else {
-        alert(x+" Maior que 5");
+        document.getElementById('comp').innerHTML = (x+" Maior que 5");
     }
 }

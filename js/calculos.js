@@ -4,7 +4,7 @@ function calculo(x,y){
         return ('Preencha os dois campos');
     }
     var CalcString = '';
-    soma = parseInt(x)+parseInt(y);
+    soma = Number(x)+Number(y);
     CalcString+=("a soma de "+x+" + "+y+" é igual a "+soma+'<br />');
     divisao = x/y;
     CalcString+=("a divisão de "+x+" / "+y+" é igual a "+divisao+'<br />');
